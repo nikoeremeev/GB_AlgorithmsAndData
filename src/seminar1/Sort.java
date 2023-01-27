@@ -4,7 +4,7 @@ public class Sort {
 
     public static void main(String[] args) {
         int[] array = new int[] {5,3,8,2,6,1,0,9,7,5};
-        bubbleSort(array);
+        directSort(array);
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
 
@@ -24,5 +24,21 @@ public class Sort {
                 }
             }
         }while(!finish);
+    }
+
+    public static void directSort(int[] array){
+        for (int i = 0; i < array.length-1; i++) {
+            int minPosition = i;
+            for (int j = i+1; j < array.length; j++) {
+                if (array[j] < array[minPosition]){
+                    minPosition = j;
+                }
+            }
+            if (i != minPosition){
+                int temp = array[i];
+                array[i] = array[minPosition];
+                array[minPosition] = temp;
+            }
+        }
     }
 }

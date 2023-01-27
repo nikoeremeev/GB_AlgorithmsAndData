@@ -1,4 +1,4 @@
-package seminar1;
+package gb.seminars;
 
 public class Main {
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ public class Find {
         int[] array = new int[]{5, 3, 8, 2, 6, 1, 0, 9, 7, 5};
         System.out.println(find(array, 6));
         Sort.insertSort(array);
-        System.out.println(binaryFind(array, 6, 0, array.length) - 1);
+        System.out.println(binaryFind(array, 6));
     }
 
     // поиск перебором всего массива
@@ -16,6 +16,11 @@ public class Find {
             }
         }
         return -1;
+    }
+
+    // перегрузка метода для удобства
+    public static int binaryFind(int[] array, int value) {
+        return binaryFind(array, value, 0, array.length - 1);
     }
 
     //бинарный поиск
@@ -37,4 +42,5 @@ public class Find {
         }
 
     }
+    
 }

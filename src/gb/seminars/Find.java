@@ -1,10 +1,12 @@
 package gb.seminars;
 
+import static gb.seminars.sort.InsertSort.insertSort;
+
 public class Find {
     public static void main(String[] args) {
         int[] array = new int[]{5, 3, 8, 2, 6, 1, 0, 9, 7, 5};
         System.out.println(find(array, 6));
-        Sort.insertSort(array);
+        insertSort(array);
         System.out.println(binaryFind(array, 6));
     }
 
@@ -42,5 +44,5 @@ public class Find {
         }
 
     }
-    
+
 }

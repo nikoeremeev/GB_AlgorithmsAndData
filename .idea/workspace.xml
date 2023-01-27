@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b60cf5-86a2-4b95-ba37-d7962d58e1df" name="Changes" comment="Add binaryFnd method in Find class">
+    <list default="true" id="b1b60cf5-86a2-4b95-ba37-d7962d58e1df" name="Changes" comment="Add quickSort method">
+      <change afterPath="$PROJECT_DIR$/src/gb/seminars/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb/seminars/sort/DirectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb/seminars/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb/seminars/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gb/seminars/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/Find.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/seminars/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/seminars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/seminars/Sort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +45,22 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.gb.seminars.Sort">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Find" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gb.seminars.Find" />
+      <module name="GB_AlgorithmsAndData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb.seminars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gb.seminars.Main" />
       <module name="GB_AlgorithmsAndData" />
       <extension name="coverage">
         <pattern>
@@ -82,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.gb.seminars.Sort" />
         <item itemvalue="Application.Find" />
         <item itemvalue="Application.Sort" />
@@ -146,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674842800340</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add quickSort method">
+      <created>1674844294307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674844294307</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +194,7 @@
     <MESSAGE value="Change project" />
     <MESSAGE value="Add find method in Find class" />
     <MESSAGE value="Add binaryFnd method in Find class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add binaryFnd method in Find class" />
+    <MESSAGE value="Add quickSort method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add quickSort method" />
   </component>
 </project>

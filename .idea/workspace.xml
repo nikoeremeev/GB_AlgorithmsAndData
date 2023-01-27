@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b60cf5-86a2-4b95-ba37-d7962d58e1df" name="Changes" comment="Add quickSort method">
-      <change afterPath="$PROJECT_DIR$/src/gb/seminars/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/seminars/sort/DirectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/seminars/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/seminars/sort/QuickSort.java" afterDir="false" />
+    <list default="true" id="b1b60cf5-86a2-4b95-ba37-d7962d58e1df" name="Changes" comment="Change project">
+      <change afterPath="$PROJECT_DIR$/src/gb/seminars/find/BinaryFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb/seminars/find/Find.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/seminars/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/Find.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gb/seminars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/seminars/Sort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674844294307</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Change project">
+      <created>1674845222873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674845222873</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,10 +194,10 @@
     <MESSAGE value="Add Sort class" />
     <MESSAGE value="Add directSort method" />
     <MESSAGE value="Add insertSort method" />
-    <MESSAGE value="Change project" />
     <MESSAGE value="Add find method in Find class" />
     <MESSAGE value="Add binaryFnd method in Find class" />
     <MESSAGE value="Add quickSort method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add quickSort method" />
+    <MESSAGE value="Change project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change project" />
   </component>
 </project>

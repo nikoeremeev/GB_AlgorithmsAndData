@@ -1,26 +1,6 @@
-package gb.seminars;
+package gb.seminars.find;
 
-import static gb.seminars.sort.InsertSort.insertSort;
-
-public class Find {
-    public static void main(String[] args) {
-        int[] array = new int[]{5, 3, 8, 2, 6, 1, 0, 9, 7, 5};
-        System.out.println(find(array, 6));
-        insertSort(array);
-        System.out.println(binaryFind(array, 6));
-    }
-
-    // поиск перебором всего массива
-    public static int find(int[] array, int value) {
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == value) {
-                return i;
-            }
-        }
-        return -1;
-    }
-
-    // перегрузка метода для удобства
+public class BinaryFind {
     public static int binaryFind(int[] array, int value) {
         return binaryFind(array, value, 0, array.length - 1);
     }
@@ -44,5 +24,4 @@ public class Find {
         }
 
     }
-
 }

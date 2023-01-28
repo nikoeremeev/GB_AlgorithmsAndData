@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1b60cf5-86a2-4b95-ba37-d7962d58e1df" name="Changes" comment="Change project">
-      <change afterPath="$PROJECT_DIR$/src/gb/seminars/find/BinaryFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gb/seminars/find/Find.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb/seminars/seminar1/Sample01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb/seminars/seminar2/Sample01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gb/seminars/sort/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gb/seminars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/Main.java" afterDir="false" />
     </list>
@@ -38,9 +39,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Admin/Java_projects/GB_AlgorithmsAndData/src/gb/seminars/seminar2",
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Java_projects\GB_AlgorithmsAndData\src\gb\seminars\seminar2" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Find" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gb.seminars.Find" />
@@ -175,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674845222873</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Change project">
+      <created>1674845657122</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674845657122</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

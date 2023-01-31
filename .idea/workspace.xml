@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b1b60cf5-86a2-4b95-ba37-d7962d58e1df" name="Changes" comment="Add example seminar3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gb/seminars/seminar3/Sample01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/seminar3/Sample01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/seminars/seminar3/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/seminar3/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/seminars/seminar3/MyLinkedListV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/seminar3/MyLinkedListV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/seminars/seminar3/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/seminar3/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/seminars/seminar3/NodeV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/seminar3/NodeV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gb/seminars/seminar3/Sample02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gb/seminars/seminar3/Sample02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675166046777</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add example seminar3">
+      <created>1675167975161</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675167975161</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

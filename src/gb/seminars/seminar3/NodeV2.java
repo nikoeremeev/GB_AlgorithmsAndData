@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson3;
+package gb.seminars.seminar3;
 
 public class NodeV2 {
 

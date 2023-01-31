@@ -1,29 +1,29 @@
-package ru.geekbrains.lesson3;
+package gb.seminars.seminar3;
 
 public class MyLinkedList {
 
-    private Node head; // Ссылка на первый элемент
+    private gb.seminars.seminar3.Node head; // Ссылка на первый элемент
 
     public Node getHead() {
         return head;
     }
 
-    public void addFirst(int value){
+    public void addFirst(int value) {
         Node node = new Node(value);
         if (head != null)
             node.setNext(head);
         head = node;
     }
 
-    public void removeFirst(){
+    public void removeFirst() {
         if (head != null)
             head = head.getNext();
     }
 
 
-    public Node contains(int value){
+    public Node contains(int value) {
         Node node = head;
-        while (node != null){
+        while (node != null) {
             if (node.getValue() == value)
                 return node;
             node = node.getNext();
@@ -31,29 +31,27 @@ public class MyLinkedList {
         return null;
     }
 
-    public void addLast(int value){
+    public void addLast(int value) {
         Node node = new Node(value);
-        if (head == null){
+        if (head == null) {
             head = node;
-        }
-        else {
+        } else {
             Node last = head;
-            while (last.getNext() != null){
+            while (last.getNext() != null) {
                 last = last.getNext();
             }
             last.setNext(node);
         }
     }
 
-    public void removeLast(){
+    public void removeLast() {
         if (head == null)
             return;
 
         Node node = head;
 
-        while (node.getNext() != null){
-            if (node.getNext().getNext() == null)
-            {
+        while (node.getNext() != null) {
+            if (node.getNext().getNext() == null) {
                 node.setNext(null);
                 return;
             }

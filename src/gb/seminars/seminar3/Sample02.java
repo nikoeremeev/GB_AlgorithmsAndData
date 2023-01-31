@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson3;
+package gb.seminars.seminar3;
 
 public class Sample02 {
 
@@ -16,11 +16,11 @@ public class Sample02 {
 
     }
 
-    public static Node middleNode(Node head){
+    public static Node middleNode(Node head) {
         int lenght = 1;
         Node node = head;
 
-        while (node.getNext() != null){
+        while (node.getNext() != null) {
             lenght++;
             node = node.getNext();
         }
@@ -29,13 +29,12 @@ public class Sample02 {
 
         node = head;
 
-        for (int i = 0; i < lenght - 1; i++){
+        for (int i = 0; i < lenght - 1; i++) {
             node = node.getNext();
         }
 
         return node;
     }
-
 
 
 }

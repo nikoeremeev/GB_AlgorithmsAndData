@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson3;
+package gb.seminars.seminar3;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -32,21 +32,20 @@ class MyCollection {
     private int capacity;
     private int length = 0;
 
-    public  MyCollection(int capacity){
+    public MyCollection(int capacity) {
         this.capacity = capacity;
         arr = new int[capacity];
     }
 
-    public  MyCollection(){
+    public MyCollection() {
         capacity = 10;
         arr = new int[capacity];
     }
 
-    public void add(int i){
+    public void add(int i) {
         arr[length] = i;
         length++;
     }
-
 
 
 }
